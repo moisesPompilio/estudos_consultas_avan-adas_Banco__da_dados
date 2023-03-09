@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "estudos_sql",
+            "group": "estudos",
+            "database": "estudos",
+            "username": "estudos",
+            "password": "estudos"
+        }
+    ]
+}
