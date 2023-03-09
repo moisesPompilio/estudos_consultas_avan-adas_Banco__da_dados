@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: estudos
+      POSTGRES_USER: estudos
+      POSTGRES_PASSWORD: estudos
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
